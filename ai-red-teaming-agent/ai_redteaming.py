@@ -26,11 +26,11 @@ async def run_red_team():
     credential = DefaultAzureCredential()
 
     # Get AI project parameters from environment variables (matching evaluate.py)
-    project_endpoint = os.environ.get("AZURE_EXISTING_AIPROJECT_ENDPOINT")
-    deployment_name = os.getenv("AZURE_AI_AGENT_DEPLOYMENT_NAME")  # Using getenv for consistency with evaluate.py
-    agent_id = os.environ.get("AZURE_EXISTING_AGENT_ID")
-    agent_name = os.environ.get("AZURE_AI_AGENT_NAME")
-    
+    project_endpoint = os.getenv("PROJECT_ENDPOINT")
+    deployment_name = os.getenv("MODEL_DEPLOYMENT_NAME")  # Using getenv for consistency with evaluate.py
+    agent_id = os.getenv("AZURE_EXISTING_AGENT_ID")
+    agent_name = os.getenv("AZURE_AI_AGENT_NAME")
+
     # Validate required environment variables
     if not project_endpoint:
         raise ValueError("Please set the AZURE_EXISTING_AIPROJECT_ENDPOINT environment variable.")
