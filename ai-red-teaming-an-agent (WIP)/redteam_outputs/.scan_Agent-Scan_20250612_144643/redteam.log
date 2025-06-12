@@ -1,0 +1,11 @@
+2025-06-12 14:46:43,417 - DEBUG - RedTeamLogger - ================================================================================
+2025-06-12 14:46:43,417 - DEBUG - RedTeamLogger - STARTING RED TEAM SCAN
+2025-06-12 14:46:43,418 - DEBUG - RedTeamLogger - ================================================================================
+2025-06-12 14:46:43,418 - INFO - RedTeamLogger - Scan started with scan_name: Agent-Scan
+2025-06-12 14:46:43,418 - INFO - RedTeamLogger - Scan ID: scan_Agent-Scan_20250612_144643
+2025-06-12 14:46:43,418 - INFO - RedTeamLogger - Scan output directory: redteam_outputs/.scan_Agent-Scan_20250612_144643
+2025-06-12 14:46:43,418 - DEBUG - RedTeamLogger - Attack strategies: [<AttackStrategy.Flip: 'flip'>]
+2025-06-12 14:46:43,418 - DEBUG - RedTeamLogger - skip_upload: False, output_path: None
+2025-06-12 14:46:43,418 - DEBUG - RedTeamLogger - Timeout: 120 seconds
+2025-06-12 14:46:43,418 - INFO - RedTeamLogger - Starting RED TEAM SCAN: Agent-Scan
+2025-06-12 14:46:43,418 - INFO - RedTeamLogger - Output directory: redteam_outputs/.scan_Agent-Scan_20250612_144643
