@@ -92,8 +92,13 @@ async def run_red_team():
             red_team = RedTeam(
                 azure_ai_project=project_endpoint,
                 credential=credential,
-                risk_categories=[RiskCategory.Violence],
-                num_objectives=1,
+                risk_categories=[ # optional, defaults to all four risk categories
+                    RiskCategory.Violence,
+                    RiskCategory.HateUnfairness,
+                    RiskCategory.Sexual,
+                    RiskCategory.SelfHarm
+                ], 
+                num_objectives=5,  # optional, defaults to 10
                 output_dir="redteam_outputs/"
             )
 
