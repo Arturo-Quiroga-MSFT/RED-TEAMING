@@ -289,3 +289,5 @@ Exception Details:	(BadRequest) {
 2025-06-12 13:13:52,841 - DEBUG - RedTeamLogger - Generating scorecard
 2025-06-12 13:13:52,841 - INFO - RedTeamLogger - Scan completed successfully
 2025-06-12 13:41:20,403 - DEBUG - RedTeamLogger - RedTeam initialized successfully
+2025-06-13 09:22:41,337 - DEBUG - RedTeamLogger - RedTeam initialized successfully
+2025-06-13 09:26:14,392 - DEBUG - RedTeamLogger - RedTeam initialized successfully

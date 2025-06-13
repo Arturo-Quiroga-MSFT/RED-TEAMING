@@ -51,6 +51,9 @@ async def run_red_team():
                 raise ValueError("Agent ID not found. Please provide a valid agent ID or name.")
                 
             agent = project_client.agents.get_agent(agent_id)
+            print()
+            print(f"Using agent: {agent.name} (ID: {agent.id})")
+            print()
             
             # Use model from agent if not provided - matching evaluate.py
             if not deployment_name:
