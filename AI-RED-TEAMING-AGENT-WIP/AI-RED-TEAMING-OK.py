@@ -98,7 +98,7 @@ async def run_red_team():
                     RiskCategory.Sexual,
                     RiskCategory.SelfHarm
                 ], 
-                num_objectives=5,  # optional, defaults to 10
+                num_objectives=10,  # optional, defaults to 10
                 output_dir="redteam_outputs/"
             )
 

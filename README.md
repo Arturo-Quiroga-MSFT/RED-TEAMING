@@ -1,6 +1,14 @@
 # AI Red Teaming Agent (Preview)
 
-The **AI Red Teaming Agent** is a powerful tool designed to help organizations proactively identify safety risks associated with generative AI systems during design and development. By integrating Microsoft's open-source [PyRIT](https://github.com/microsoft/pyrit) (Python Risk Identification Tool) AI red teaming capabilities directly into Azure AI Foundry, teams can automatically scan their model and application endpoints for risks, simulate adversarial probing, and generate detailed reports.
+> **⚠️ DISCLAIMER**
+>
+> The author of this repository **did not create, author, or curate any of the red teaming prompts** used to test or evaluate the filtering capabilities of AI models or agents. All adversarial prompts, attack objectives, and risk category examples are sourced from Microsoft's open-source [PyRIT](https://github.com/microsoft/pyrit) (Python Risk Identification Tool) and/or the Azure AI Evaluation SDK. These prompts are provided solely for research, evaluation, and safety testing purposes. Use them responsibly and in accordance with all applicable laws and ethical guidelines.
+
+---
+
+## Overview
+
+The **AI Red Teaming Agent** is a tool designed to help organizations proactively identify safety risks in generative AI systems during design and development. By integrating Microsoft's open-source PyRIT red teaming capabilities directly into Azure AI Foundry, teams can automatically scan their model and application endpoints for risks, simulate adversarial probing, and generate detailed reports.
 
 ---
 
@@ -155,4 +163,4 @@ red_team_agent = RedTeam(
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT

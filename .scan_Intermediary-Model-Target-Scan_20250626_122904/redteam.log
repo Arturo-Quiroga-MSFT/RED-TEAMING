@@ -1,0 +1,11 @@
+2025-06-26 12:29:04,889 - DEBUG - RedTeamLogger - ================================================================================
+2025-06-26 12:29:04,889 - DEBUG - RedTeamLogger - STARTING RED TEAM SCAN
+2025-06-26 12:29:04,889 - DEBUG - RedTeamLogger - ================================================================================
+2025-06-26 12:29:04,889 - INFO - RedTeamLogger - Scan started with scan_name: Intermediary-Model-Target-Scan
+2025-06-26 12:29:04,889 - INFO - RedTeamLogger - Scan ID: scan_Intermediary-Model-Target-Scan_20250626_122904
+2025-06-26 12:29:04,889 - INFO - RedTeamLogger - Scan output directory: ./.scan_Intermediary-Model-Target-Scan_20250626_122904
+2025-06-26 12:29:04,889 - DEBUG - RedTeamLogger - Attack strategies: [<AttackStrategy.Flip: 'flip'>]
+2025-06-26 12:29:04,889 - DEBUG - RedTeamLogger - skip_upload: False, output_path: None
+2025-06-26 12:29:04,889 - DEBUG - RedTeamLogger - Timeout: 120 seconds
+2025-06-26 12:29:04,889 - INFO - RedTeamLogger - Starting RED TEAM SCAN: Intermediary-Model-Target-Scan
+2025-06-26 12:29:04,889 - INFO - RedTeamLogger - Output directory: ./.scan_Intermediary-Model-Target-Scan_20250626_122904
